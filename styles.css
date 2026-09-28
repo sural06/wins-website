@@ -5,20 +5,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Public+Sans:wght@400;500;600;700&display=swap');
 
 :root {
-  --ink: #17121f;
-  --plum-900: #2c1a47;
-  --plum-700: #452a6c;
-  --plum-500: #6f47a3;
+  --ink: #ece4f7;
+  --plum-900: #c7b3e8;
+  --plum-700: #b79cdb;
+  --plum-500: #9b7fd0;
   --lilac-300: #b79cdb;
   --lilac-100: #ece4f7;
   --gold: #c39a4a;
-  --paper: #f7f4ef;
-  --paper-dim: #efe8db;
-  --charcoal: #241f2b;
-  --line: rgba(36, 31, 43, 0.14);
+  --paper: #0a0a0a;
+  --paper-dim: #141116;
+  --charcoal: #d6c8ee;
+  --line: rgba(199, 179, 232, 0.2);
   --max: 68rem;
 }
-
 * { box-sizing: border-box; }
 
 html { scroll-behavior: smooth; }
