@@ -103,13 +103,9 @@ p { max-width: 62ch; }
   gap: 0.6rem;
 }
 
-.nav-mark .dot {
-  width: 0.55rem;
-  height: 0.55rem;
-  border-radius: 50%;
-  background: var(--gold);
-  flex: none;
-}
+   .nav-mark .dot {
+     display: none;
+   }
 
 .nav-links {
   display: flex;
