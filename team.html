@@ -3,7 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Team — Stanford Women in National Security</title>
+<title>Team - Stanford Women in National Security</title>
+<meta name="description" content="The officer board of Stanford Women in National Security.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,7 +15,7 @@
 
 <header class="site-header">
   <nav class="nav">
-    <a class="nav-mark" href="index.html"><span class="dot"></span>Stanford Women in National Security</a>
+    <a class="nav-mark" href="index.html">Women in National Security<span class="sm">Stanford University</span></a>
     <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
@@ -19,95 +23,95 @@
       <li><a href="events.html">Events</a></li>
       <li><a href="team.html" aria-current="page">Team</a></li>
       <li><a href="contact.html">Contact</a></li>
-      <li><a class="nav-cta" href="contact.html">Join us</a></li>
+      <li><a class="nav-cta" href="https://forms.gle/GTr78qZemdPtdpaQ9" target="_blank" rel="noopener">Join us</a></li>
     </ul>
   </nav>
 </header>
 
 <main id="main">
 
-  <section class="hero" style="padding-bottom: 2.5rem;">
-    <div class="container" style="grid-template-columns: 1fr;">
-      <div class="hero-copy">
-        <p class="eyebrow-note">Team</p>
-        <h1>The officer board</h1>
-        <p class="lede">[fill in]</p>
-      </div>
+  <section class="hero">
+    <div class="wrap">
+      <p class="label">Team</p>
+      <h1>The officer board</h1>
+      <p class="lede">[fill in]</p>
     </div>
   </section>
 
-  <section>
-    <div class="container">
-      <div class="team-grid">
+  <section class="section">
+    <div class="wrap">
 
+      <!--
+        TO ADD A PHOTO for someone: upload the image to the repo, then replace
+        that person's portrait line with:
+        <div class="portrait"><img src="firstname.jpg" alt="Firstname Lastname"></div>
+      -->
+
+      <div class="team-grid">
         <div class="person">
-          <figure aria-hidden="true">SJ</figure>
+          <div class="portrait"><span class="initials" aria-hidden="true">SJ</span></div>
           <h3>Soraya Johnson</h3>
           <p class="role">President</p>
           <p class="bio">Junior, Political Science and Economics</p>
         </div>
-
         <div class="person">
-          <figure aria-hidden="true">SU</figure>
+          <div class="portrait"><span class="initials" aria-hidden="true">SU</span></div>
           <h3>Siri Ural</h3>
           <p class="role">Vice President</p>
           <p class="bio">Junior, Economics and Data Science</p>
         </div>
-
         <div class="person">
-          <figure aria-hidden="true">ES</figure>
+          <div class="portrait"><span class="initials" aria-hidden="true">ES</span></div>
           <h3>Elliot Self</h3>
           <p class="role">Director of Events</p>
-          <p class="bio">Sophomore, Data Science.</p>
+          <p class="bio">Sophomore, Data Science</p>
         </div>
-
         <div class="person">
-          <figure aria-hidden="true">AT</figure>
+          <div class="portrait"><span class="initials" aria-hidden="true">AT</span></div>
           <h3>Anika Turcotte</h3>
           <p class="role">Director of Operations</p>
-          <p class="bio">Junior, Management Science & Engineering</p>
+          <p class="bio">Junior, Management Science &amp; Engineering</p>
         </div>
-
         <div class="person">
-          <figure aria-hidden="true">AY</figure>
+          <div class="portrait"><span class="initials" aria-hidden="true">AY</span></div>
           <h3>Anika Yadav</h3>
           <p class="role">Financial Officer</p>
-          <p class="bio">Junior, Management Science & Engineering></p>
+          <p class="bio">Junior, Management Science &amp; Engineering</p>
         </div>
-
         <div class="person">
-          <figure aria-hidden="true">VK</figure>
+          <div class="portrait"><span class="initials" aria-hidden="true">VK</span></div>
           <h3>Vaishnavi Kumbala</h3>
           <p class="role">Financial Officer</p>
-          <p class="bio">Sophomore, Computer Science </p>
+          <p class="bio">Sophomore, Computer Science</p>
         </div>
-
         <div class="person">
-          <figure aria-hidden="true">LI</figure>
+          <div class="portrait"><span class="initials" aria-hidden="true">LI</span></div>
           <h3>Lyla Ibrahim</h3>
           <p class="role">Director of Cyber 9/12</p>
           <p class="bio">Senior, Computer Science</p>
         </div>
-
       </div>
     </div>
   </section>
 
-  <section class="dim">
-    <div class="container">
-      <div class="section-head">
-        <h2>Faculty & advisory support</h2>
+  <section class="section dim">
+    <div class="wrap rail">
+      <div class="rail-head">
+        <p class="label">With thanks</p>
+        <h2>Faculty &amp; advisory support</h2>
       </div>
-      <p>[Placeholder] WINS is grateful for guidance from faculty affiliated with CISAC, Hoover, and FSI. </p>
+      <div>
+        <p>WINS is grateful for guidance from faculty affiliated with CISAC, Hoover, and FSI.</p>
+      </div>
     </div>
   </section>
 
 </main>
 
 <footer class="site-footer">
-  <div class="container">
-    <span>© 2026 Stanford Women in National Security</span>
-    <a href="contact.html">hello@stanfordwins.com</a>
+  <div class="wrap">
+    <p>&copy; 2026 Stanford Women in National Security</p>
+    <p><a href="https://forms.gle/GTr78qZemdPtdpaQ9" target="_blank" rel="noopener">Join the mailing list</a></p>
   </div>
 </footer>
 
