@@ -4,7 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Stanford Women in National Security</title>
-<meta name="description" content="Stanford Women in National Security prepares women to lead in defense, intelligence, and foreign policy through mentorship, briefings, and community.">
+<meta name="description" content="Stanford Women in National Security is a community for women pursuing interests in security, intelligence, and foreign policy.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,7 +15,7 @@
 
 <header class="site-header">
   <nav class="nav">
-    <a class="nav-mark" href="index.html"><span class="dot"></span>Stanford Women in National Security</a>
+    <a class="nav-mark" href="index.html">Women in National Security<span class="sm">Stanford University</span></a>
     <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
     <ul class="nav-links">
       <li><a href="index.html" aria-current="page">Home</a></li>
@@ -20,7 +23,7 @@
       <li><a href="events.html">Events</a></li>
       <li><a href="team.html">Team</a></li>
       <li><a href="contact.html">Contact</a></li>
-      <li><a class="nav-cta" href="contact.html">Join us</a></li>
+      <li><a class="nav-cta" href="https://forms.gle/GTr78qZemdPtdpaQ9" target="_blank" rel="noopener">Join us</a></li>
     </ul>
   </nav>
 </header>
@@ -28,52 +31,42 @@
 <main id="main">
 
   <section class="hero">
-    <div class="container">
-      <div class="hero-copy">
-        <p class="eyebrow-note">Stanford student organization, founded 2024</p>
-        <h1>[Insert tagline]</h1>
-        <p class="lede">We're a Stanford community for women pursuing interests in security, intelligence, foreign policy, and more.</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="contact.html">Join the mailing list</a>
-          <a class="btn btn-ghost" href="events.html">See upcoming events</a>
-        </div>
+    <div class="wrap">
+      <p class="label">Stanford student organization &middot; Founded 2024</p>
+      <h1>The rooms where security gets decided should have <span class="accent">us in them.</span></h1>
+      <p class="lede">We're a Stanford community for women pursuing interests in security, intelligence, foreign policy, and more.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://forms.gle/GTr78qZemdPtdpaQ9" target="_blank" rel="noopener">Join the mailing list</a>
+        <a class="btn btn-ghost" href="events.html">See upcoming events</a>
       </div>
-      <div class="hero-art" aria-hidden="true">
-        <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="200" cy="200" r="30" fill="none" stroke="#c39a4a" stroke-width="2"/>
-          <circle cx="200" cy="200" r="70" fill="none" stroke="#6f47a3" stroke-width="1.5" opacity="0.7"/>
-          <circle cx="200" cy="200" r="115" fill="none" stroke="#6f47a3" stroke-width="1.5" opacity="0.45"/>
-          <circle cx="200" cy="200" r="165" fill="none" stroke="#6f47a3" stroke-width="1.5" opacity="0.25"/>
-          <path d="M 200 200 L 200 35" stroke="#2c1a47" stroke-width="1.5" opacity="0.5"/>
-          <path d="M 200 200 L 330 290" stroke="#2c1a47" stroke-width="1.5" opacity="0.3"/>
-          <circle cx="200" cy="200" r="4.5" fill="#2c1a47"/>
-          <circle cx="200" cy="35" r="4" fill="#c39a4a"/>
-          <circle cx="330" cy="290" r="4" fill="#c39a4a"/>
-        </svg>
+      <div class="hero-meta">
+        <div><strong>60+</strong><span>Active members</span></div>
+        <div><strong>12</strong><span>Previous events</span></div>
       </div>
     </div>
   </section>
 
-  <section>
-    <div class="container">
-      <p class="pull">"National security has been shaped almost entirely by rooms women weren't in. We're building the pipeline that gets them there, and the community that keeps them."</p>
-      <div class="stat-row">
-        <div class="stat"><strong>60+</strong><span>Active members</span></div>
-        <div class="stat"><strong>12</strong><span>Previous events</span></div>
-        <div class="stat"><strong>4</strong><span>xxx</span></div>
+  <section class="section">
+    <div class="wrap rail">
+      <div class="rail-head">
+        <p class="label">Why we exist</p>
+      </div>
+      <div>
+        <p class="statement wide">National security has been shaped almost entirely by rooms women weren't in. We're building the pipeline that gets them there, and the community that keeps them.</p>
+        <p><a href="about.html">Read our mission</a></p>
       </div>
     </div>
   </section>
 
-  <section class="dim">
-    <div class="container">
-      <div class="section-head">
+  <section class="section dim">
+    <div class="wrap rail">
+      <div class="rail-head">
+        <p class="label">Our work</p>
         <h2>What we do</h2>
-        <span class="tag">Three things, done well</span>
       </div>
-      <ul class="row-list">
+      <ul class="rows">
         <li>
-          <h3>Briefings & speaker series</h3>
+          <h3>Briefings &amp; speaker series</h3>
           <p>Conversations with people who've worked inside the intelligence community, academia, and startups creating frontier technology.</p>
         </li>
         <li>
@@ -88,18 +81,27 @@
     </div>
   </section>
 
-  <section>
-    <div class="container">
-      <div class="section-head">
+  <section class="section">
+    <div class="wrap rail">
+      <div class="rail-head">
+        <p class="label">Next up</p>
         <h2>Coming up</h2>
-        <a href="events.html">Full calendar &nbsp;›</a>
+        <p style="margin-top:1rem;"><a href="events.html">Full calendar</a></p>
       </div>
       <ul class="agenda">
         <li>
+          <time>Sun, Oct 3</time>
+          <div>
+            <h3>Bagels and Brunch!<span class="badge">Members</span></h3>
+            <p class="meta">11:00 AM &ndash; 1:00 PM &middot; Wilbur Field</p>
+            <p>Come meet other girls in WINS!</p>
+          </div>
+        </li>
+        <li>
           <time>Thu, Oct 15</time>
           <div>
-            <h3>Speaker Series: Career Talk<span class="badge-status">RSVP open</span></h3>
-            <p class="meta">6:00–7:15 PM · Encina Hall, Room 200</p>
+            <h3>Speaker Series: Career Talk<span class="badge">RSVP open</span></h3>
+            <p class="meta">6:00 &ndash; 7:15 PM &middot; Encina Hall, Room 200</p>
             <p>[with Isobel]</p>
           </div>
         </li>
@@ -107,12 +109,12 @@
     </div>
   </section>
 
-  <section class="cta-band">
-    <div class="container">
+  <section class="closer">
+    <div class="wrap">
       <h2>New to WINS? Start here.</h2>
-      <p>General meetings are open to all Stanford students interested in the field — no prior experience or major required.</p>
+      <p>General meetings are open to all Stanford students interested in the field &mdash; no prior experience or major required.</p>
       <div class="hero-actions">
-        <a class="btn btn-primary" href="contact.html">Join the mailing list</a>
+        <a class="btn btn-primary" href="https://forms.gle/GTr78qZemdPtdpaQ9" target="_blank" rel="noopener">Join the mailing list</a>
         <a class="btn btn-ghost" href="about.html">Read our mission</a>
       </div>
     </div>
@@ -121,9 +123,9 @@
 </main>
 
 <footer class="site-footer">
-  <div class="container">
-    <span>© 2026 Stanford Women in National Security</span>
-    <a href="contact.html">hello@stanfordwins.com</a>
+  <div class="wrap">
+    <p>&copy; 2026 Stanford Women in National Security</p>
+    <p><a href="https://forms.gle/GTr78qZemdPtdpaQ9" target="_blank" rel="noopener">Join the mailing list</a></p>
   </div>
 </footer>
 
