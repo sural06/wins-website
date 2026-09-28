@@ -4,12 +4,12 @@ document.addEventListener('DOMContentLoaded', function () {
   if (!toggle || !links) return;
 
   toggle.addEventListener('click', function () {
-    var isOpen = links.classList.toggle('open');
-    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    var open = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
   });
 
-  links.querySelectorAll('a').forEach(function (link) {
-    link.addEventListener('click', function () {
+  links.querySelectorAll('a').forEach(function (a) {
+    a.addEventListener('click', function () {
       links.classList.remove('open');
       toggle.setAttribute('aria-expanded', 'false');
     });
