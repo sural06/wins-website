@@ -458,3 +458,40 @@ button:focus-visible {
   html { scroll-behavior: auto; }
   * { transition: none !important; }
 }
+
+/* ---------- Cyber 9/12 champions ---------- */
+.shot {
+  aspect-ratio: 3 / 2;
+  border: 1px solid var(--rule-soft);
+  background:
+    var(--img, none) center / cover no-repeat,
+    radial-gradient(ellipse 80% 70% at 50% 20%, rgba(201, 193, 240, 0.16), transparent 70%),
+    var(--night-2);
+}
+
+.wins {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem 2rem;
+  margin-top: 3.5rem;
+}
+
+.win h3 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-top: 1.2rem;
+  line-height: 1.05;
+}
+.win p { margin: 0.6rem 0 0; }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.gallery .shot { aspect-ratio: 4 / 3; }
+
+@media (max-width: 760px) {
+  .wins { grid-template-columns: 1fr; }
+  .gallery { grid-template-columns: 1fr; }
+}
