@@ -2,7 +2,7 @@
    Stanford Women in National Security — shared stylesheet
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Public+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Public+Sans:wght@400;500;600;700&display=swap');
 
 :root {
   --ink: #ece4f7;
@@ -26,7 +26,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--charcoal);
-  font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Fraunces', Georgia, serif;
   font-size: 1rem;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
@@ -40,7 +40,7 @@ a {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: 'Archivo', -apple-system, sans-serif;
   font-weight: 500;
   color: var(--ink);
   margin: 0 0 0.5em;
@@ -93,7 +93,7 @@ p { max-width: 62ch; }
 }
 
 .nav-mark {
-  font-family: 'Fraunces', serif;
+font-family: 'Archivo', -apple-system, sans-serif;
   font-weight: 600;
   font-size: 1.15rem;
   color: var(--ink);
@@ -253,7 +253,7 @@ section + section { border-top: 1px solid var(--line); }
 
 /* ---------- Pull quote / mission line ---------- */
 .pull {
-  font-family: 'Fraunces', serif;
+  font-family: 'Archivo', -apple-system, sans-serif;
   font-style: italic;
   font-weight: 500;
   font-size: clamp(1.4rem, 2.6vw, 2rem);
@@ -341,7 +341,7 @@ section + section { border-top: 1px solid var(--line); }
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Fraunces', serif;
+  font-family: 'Archivo', -apple-system, sans-serif;
   font-size: 1.4rem;
 }
 
@@ -363,7 +363,7 @@ section + section { border-top: 1px solid var(--line); }
 }
 .stat-row .stat strong {
   display: block;
-  font-family: 'Fraunces', serif;
+  font-family: 'Archivo', -apple-system, sans-serif;
   font-size: 2.2rem;
   color: var(--ink);
   font-weight: 500;
@@ -496,3 +496,6 @@ button:focus-visible {
   background: transparent;
   color: var(--ink);
 }
+
+.pull { font-style: normal; }
+h1, h2 { font-weight: 600; letter-spacing: -0.02em; }
