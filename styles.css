@@ -467,3 +467,32 @@ button:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+.cta-band {
+  background: var(--paper-dim);
+  color: var(--charcoal);
+  border-top: 1px solid var(--line);
+}
+.cta-band h2 { color: var(--ink); }
+.cta-band p { color: var(--charcoal); }
+.cta-band .btn-primary {
+  background: var(--plum-900);
+  border-color: var(--plum-900);
+  color: var(--paper);
+}
+.cta-band .btn-primary:hover {
+  background: var(--ink);
+  border-color: var(--ink);
+}
+.cta-band .btn-ghost {
+  border-color: var(--plum-900);
+  color: var(--ink);
+}
+.cta-band .btn-ghost:hover {
+  background: var(--ink);
+  color: var(--paper);
+}
+.person figure {
+  background: transparent;
+  color: var(--ink);
+}
